@@ -8,7 +8,7 @@ alert(surveyScript);
 lang=document.getElementById("confirmitLanguage").value;
 var script = document.createElement("script");
 script.src = surveyScript+"&l="+lang;
-document.head.appendChild(script);
+document.body.appendChild(script);
 
 /*
 Why this solution could be good?
