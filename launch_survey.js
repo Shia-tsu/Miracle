@@ -1,4 +1,4 @@
-var scriptelements = document.getElementsByTagName("script");
+/*var scriptelements = document.getElementsByTagName("script");
 var url_string = scriptelements[scriptelements.length-1].src;
 var url = new URL(url_string);
 var surveyScript = url.searchParams.get("surveyScript");
@@ -9,7 +9,8 @@ lang=document.getElementById("confirmitLanguage").value;
 var script = document.createElement("script");
 script.src = surveyScript+"&l="+lang;
 document.head.appendChild(script);
-
+*/
+alert("ok");
 /*
 Why this solution could be good?
 - we will have only 1 middle script for the 3 surveys
