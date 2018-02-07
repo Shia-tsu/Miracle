@@ -4,7 +4,7 @@ var url = new URL(url_string);
 var surveyScript = url.searchParams.get("surveyScript");
 var scriptVersion = url.searchParams.get("v");
 surveyScript+="&v="+scriptVersion;
-alert("1 | "+surveyScript);
+/*alert("1 | "+surveyScript);*/
 lang=document.getElementsByName("confirmitlanguage")[0].value;
 alert(surveyScript);
 var script = document.createElement("script");
