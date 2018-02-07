@@ -6,7 +6,6 @@ var scriptVersion = url.searchParams.get("v");
 surveyScript+="&v="+scriptVersion;
 /*alert("1 | "+surveyScript);*/
 lang=document.getElementsByName("confirmitlanguage")[0].value;
-alert(surveyScript);
 var script = document.createElement("script");
 script.src = surveyScript+"&l="+lang;
 document.body.appendChild(script);
